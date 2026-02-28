@@ -89,5 +89,5 @@ Toast: Adicione um item ao carrinho clicando em "COMPRAR" dentro do modal e obse
 ---
 
  <p align="center">
-Desenvolvido com ❤️ por <strong>Claudio Schiminsky Junior</strong>
+Desenvolvido por <strong>Claudio Schiminsky Junior</strong>
 </p>
