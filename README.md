@@ -1,6 +1,6 @@
 🛒 E-commerce Front-end Test
 <p align="center">
-<img src="/public/assets/logo-econverse.png" alt="Logo Econverse" width="200"/>
+<img src="/public/assets/image/logo-econverse.png" alt="Logo Econverse" width="200"/>
 </p>
 
 🛠 Tecnologias Utilizadas
