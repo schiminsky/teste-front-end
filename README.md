@@ -55,18 +55,18 @@ Antes de começar, você precisará ter instalado em sua máquina:
 
 ### 🛠️ Passo a Passo
 1. **Clonar o Repositório:**
-   ```bash
+```bash
   git clone [https://github.com/schiminsky/teste-front-end.git](https://github.com/schiminsky/teste-front-end.git)
-  ```
+```
 2. **Instale as bibliotecas necessárias:**
-  ```bash
+```bash
   npm install
   npm install sass
-  ```
+```
 3. **Iniciar o projeto:**
-  ```bash
+```bash
   npm start
-  ```
+```
 
 ---
 
