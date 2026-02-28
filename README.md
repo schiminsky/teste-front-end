@@ -47,25 +47,32 @@ Siga as instruções abaixo para configurar o ambiente e rodar o projeto localme
 
 ### 📋 Pré-requisitos
 Antes de começar, você precisará ter instalado em sua máquina:
-* **Node.js** (Versão 16 ou superior)
+* **Node.js** 
 * **npm** ou **Yarn**
 * Um navegador moderno para visualização (Chrome, Firefox ou Edge)
 
 ---
 
 ### 🛠️ Passo a Passo
-1. **Clonar o Repositório:**
+**Clonar o Repositório:**
 ```bash
   git clone https://github.com/schiminsky/teste-front-end.git
 ```
-2. **Instale as bibliotecas necessárias:**
+**Instale as bibliotecas necessárias:**
 ```bash
   npm install
   npm install sass
 ```
-3. **Iniciar o projeto:**
+**Iniciar o projeto:**
 ```bash
   npm start
+```
+**se prefere usar o Yarn, entao:**
+```bash
+  yarn install
+  yarn install sass
+
+  yarn start
 ```
 
 ---
