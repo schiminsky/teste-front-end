@@ -7,13 +7,7 @@ Este projeto foi desenvolvido como um desafio técnico de Front-end, focado na c
 
 ---
 
-## 🛠️ Stack Tecnológica
-
-| Tecnologia | Finalidade |
-| :--- | :--- |
-| **React** | Biblioteca principal para construção da UI baseada em componentes. |
-| **TypeScript** | Tipagem estática para maior segurança e escalabilidade do código. |
-| **SASS** | Pré-processador para estilização modular e uso de variáveis. |
+## 🛠️ Stacks Utilizadas
 
 <p align="left">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
