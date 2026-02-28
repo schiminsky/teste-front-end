@@ -1,4 +1,4 @@
-# <p align="center">🛒 E-commerce Front-end Test</p>
+# <p align="center">🛒 Econverse Front-end Test</p>
 
 ---
 
