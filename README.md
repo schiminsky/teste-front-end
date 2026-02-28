@@ -19,12 +19,12 @@ Este projeto foi desenvolvido como um desafio técnico de Front-end, focado na c
 
 ## ✨ Funcionalidades em Destaque
 
-### 🏷️ Vitrine de Produtos
+## 🏷️ Vitrine de Produtos
 * **Carrossel Inteligente**: Navegação fluida com scroll suave.
 * **Preços Dinâmicos**: Formatação automática para o padrão BRL.
 * **Badges Visuais**: Destaques para frete grátis e parcelamento.
 
-### 🖥️ Componentes de UI
+## 🖥️ Componentes de UI
 * **Modal de Produto**: Popup detalhado com lógica de seleção de quantidade e dados dinâmicos.
 * **Toast Notification**: Notificação que mostra que um produto foi adicionado ao carrinho.
 * **Modularidade**: Header, Banner, Marcas, Newsletter e Footer totalmente desacoplados.
@@ -45,7 +45,7 @@ src/
 
 Siga as instruções abaixo para configurar o ambiente e rodar o projeto localmente em sua máquina.
 
-### 📋 Pré-requisitos
+## 📋 Pré-requisitos
 Antes de começar, você precisará ter instalado em sua máquina:
 * **Node.js** 
 * **npm** ou **Yarn**
@@ -53,7 +53,7 @@ Antes de começar, você precisará ter instalado em sua máquina:
 
 ---
 
-### 🛠️ Passo a Passo
+## 🛠️ Passo a Passo
 **Clonar o Repositório:**
 ```bash
   git clone https://github.com/schiminsky/teste-front-end.git
@@ -77,7 +77,7 @@ Antes de começar, você precisará ter instalado em sua máquina:
 
 ---
 
-### 🧪 Como Testar as Funcionalidades
+## 🧪 Como Testar as Funcionalidades
 **Para validar a implementação, você pode realizar os seguintes testes manuais:**
 
 Navegação: Utilize o scroll manual na vitrine de produtos para testar o carrossel.
