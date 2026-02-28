@@ -16,8 +16,7 @@ interface ModalProps {
 
 const ProductModal: React.FC<ModalProps> = ({ product, onClose, onConfirm }) => {
   const [quantity, setQuantity] = useState(1);
-
-  // Funções de controle de quantidade
+  
   const increment = () => setQuantity(prev => prev + 1);
   const decrement = () => {
     if (quantity > 1) setQuantity(prev => prev - 1);
