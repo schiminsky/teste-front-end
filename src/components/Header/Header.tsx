@@ -14,7 +14,7 @@ function Header() {
             <p><span>Frete grátis</span> acima de R$ 200</p>
           </li>
           <li className="topbar-contents">
-            <img src="assets/images/CreditCard.png" alt="Cartão de Crédito" />
+            <img src="assets/images/Credit-card.png" alt="Cartão de Crédito" />
             <p><span>Parcele</span> suas compras</p>
           </li>
         </ul>
