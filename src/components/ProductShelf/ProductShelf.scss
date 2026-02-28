@@ -1,5 +1,5 @@
 .product-shelf-container {
-  width: 1350px;
+  width: 1375px;
   margin: 20px auto 50px;
   position: relative;
   user-select: none;
@@ -25,7 +25,7 @@
 
     .carousel-content {
       display: flex;
-      gap: 20px;
+      gap: 18px;
       overflow-x: hidden;
       scroll-behavior: smooth;
       padding: 20px 5px;
@@ -35,10 +35,11 @@
   .product-card {
     min-width: 270px;
     background: #FFFFFF;
-    box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     padding: 20px;
     transition: 0.3s;
+    width: 304px;
 
     &:hover { 
       transform: translateY(-5px); 

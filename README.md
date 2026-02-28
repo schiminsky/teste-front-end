@@ -39,6 +39,46 @@ src/
  └── assets/            Imagens e ícones
  ```
 
+---
+
+## 🚀 Guia de Instalação e Execução
+
+Siga as instruções abaixo para configurar o ambiente e rodar o projeto localmente em sua máquina.
+
+### 📋 Pré-requisitos
+Antes de começar, você precisará ter instalado em sua máquina:
+* **Node.js** (Versão 16 ou superior)
+* **npm** ou **Yarn**
+* Um navegador moderno para visualização (Chrome, Firefox ou Edge)
+
+---
+
+### 🛠️ Passo a Passo
+1. **Clonar o Repositório:**
+   ```bash
+  git clone [https://github.com/schiminsky/teste-front-end.git](https://github.com/schiminsky/teste-front-end.git)
+  ```
+2. **Instale as bibliotecas necessárias:**
+  ```bash
+  npm install
+  npm install sass
+  ```
+3. **Iniciar o projeto:**
+  ```bash
+  npm start
+  ```
+
+---
+
+### 🧪 Como Testar as Funcionalidades
+Para validar a implementação, você pode realizar os seguintes testes manuais:
+
+Navegação: Utilize o scroll manual na vitrine de produtos para testar o carrossel.
+Modal: Clique em um produto e verifique se está tudo correto nas fotos, títulos e preços.
+Toast: Adicione um item ao carrinho clicando em "COMPRAR" dentro do modal e observe se a notificação de sucesso aparece após o fechamento.
+
+---
+
  <p align="center">
 Desenvolvido com ❤️ por <strong>Claudio Schiminsky Junior</strong>
 </p>

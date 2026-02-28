@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&display=swap');
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -15,9 +17,9 @@
     width: 100%;
     max-width: 770px;
     padding: 50px;
-    border-radius: 4px;
+    border-radius: 6px;
     position: relative;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
 
     .close-button {
       position: absolute;
@@ -52,28 +54,31 @@
           font-size: 20px;
           color: #041E50;
           margin-bottom: 15px;
-          font-weight: 500;
+          font-weight: 400;
           text-transform: uppercase;
         }
 
         .modal-price {
           font-size: 20px;
-          font-weight: 900;
+          font-weight: 600;
           color: #041E50;
-          margin-bottom: 15px;
+          margin-bottom: 32px;
         }
 
         .modal-description {
-          font-size: 11px;
-          color: #222222;
+          font-family: 'Work Sans', sans-serif;
+          font-size: 10px;
+          color: #9F9F9F;
           line-height: 1.5;
-          margin-bottom: 10px;
+          margin-bottom: 18px;
+          width: 270px;
         }
 
         .view-details {
           display: block;
-          font-size: 12px;
-          color: #041E50;
+          font-size: 11px;
+          font-weight: 600;
+          color: #3442B5;
           text-decoration: none;
           margin-bottom: 30px;
         }
@@ -119,6 +124,7 @@
             cursor: pointer;
             text-transform: uppercase;
             transition: opacity 0.2s;
+            font-size: 14px;
 
             &:hover {
               opacity: 0.9;
