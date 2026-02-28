@@ -32,7 +32,7 @@ Este projeto foi desenvolvido como um desafio técnico de Front-end, focado na c
 
 ### 🖥️ Componentes de UI
 * **Modal de Produto**: Popup detalhado com lógica de seleção de quantidade e dados dinâmicos.
-* **Toast Notification**: Micro-interação que confirma a adição ao carrinho com auto-destruição em 2 segundos.
+* **Toast Notification**: Notificação que mostra que um produto foi adicionado ao carrinho.
 * **Modularidade**: Header, Banner, Marcas, Newsletter e Footer totalmente desacoplados.
 
 ---
