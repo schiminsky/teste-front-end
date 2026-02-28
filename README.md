@@ -1,5 +1,11 @@
 # <p align="center">🛒 Econverse Front-end Test</p>
 
+<p align="center">
+<a href="https://schiminsky.github.io/teste-front-end">
+<strong>🌐 Visualize o Projeto Online (Live Demo)</strong>
+</a>
+</p>
+
 ---
 
 ## 📝 Sobre o Projeto
@@ -54,16 +60,14 @@ Antes de começar, você precisará ter instalado em sua máquina:
 ```bash
   git clone https://github.com/schiminsky/teste-front-end.git
 ```
-**Instale as bibliotecas necessárias:**
+**Instale as dependências e rode (npm):**
 ```bash
   npm install
   npm install sass
-```
-**Iniciar o projeto:**
-```bash
+
   npm start
 ```
-**se prefere usar o Yarn, entao:**
+**se preferir usar o Yarn:**
 ```bash
   yarn install
   yarn install sass
