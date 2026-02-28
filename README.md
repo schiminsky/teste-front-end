@@ -18,13 +18,9 @@ Este projeto foi desenvolvido como um desafio técnico de Front-end, focado na c
 ---
 
 ## ✨ Funcionalidades em Destaque
-
-## 🏷️ Vitrine de Produtos
 * **Carrossel Inteligente**: Navegação fluida com scroll suave.
 * **Preços Dinâmicos**: Formatação automática para o padrão BRL.
 * **Badges Visuais**: Destaques para frete grátis e parcelamento.
-
-## 🖥️ Componentes de UI
 * **Modal de Produto**: Popup detalhado com lógica de seleção de quantidade e dados dinâmicos.
 * **Toast Notification**: Notificação que mostra que um produto foi adicionado ao carrinho.
 * **Modularidade**: Header, Banner, Marcas, Newsletter e Footer totalmente desacoplados.
