@@ -56,7 +56,7 @@ Antes de começar, você precisará ter instalado em sua máquina:
 ### 🛠️ Passo a Passo
 1. **Clonar o Repositório:**
 ```bash
-  git clone [https://github.com/schiminsky/teste-front-end.git](https://github.com/schiminsky/teste-front-end.git)
+  git clone https://github.com/schiminsky/teste-front-end.git
 ```
 2. **Instale as bibliotecas necessárias:**
 ```bash
@@ -71,10 +71,12 @@ Antes de começar, você precisará ter instalado em sua máquina:
 ---
 
 ### 🧪 Como Testar as Funcionalidades
-Para validar a implementação, você pode realizar os seguintes testes manuais:
+**Para validar a implementação, você pode realizar os seguintes testes manuais:**
 
 Navegação: Utilize o scroll manual na vitrine de produtos para testar o carrossel.
+
 Modal: Clique em um produto e verifique se está tudo correto nas fotos, títulos e preços.
+
 Toast: Adicione um item ao carrinho clicando em "COMPRAR" dentro do modal e observe se a notificação de sucesso aparece após o fechamento.
 
 ---
