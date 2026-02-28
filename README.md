@@ -46,5 +46,5 @@ src/
  ```
 
  <p align="center">
-Desenvolvido com ❤️ por <strong>Clau/strong>
+Desenvolvido com ❤️ por <strong>Claudio Schiminsky Junior</strong>
 </p>
