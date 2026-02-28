@@ -1,6 +1,6 @@
 🛒 E-commerce Front-end Test
 <p align="center">
-<img src="/public/assets/image/logo-econverse.png" alt="Logo Econverse" width="200"/>
+<img src="[/public/assets/image/logo-econverse.png](https://www.econverse.com.br/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fassets.decocache.com%2Feconverse-page%2Fea41c5ab-f3be-44b9-baf1-e94f5250b112%2FLogo-%282%29.png&fit=cover&width=240&height=72)" alt="Logo Econverse" width="200"/>
 </p>
 
 🛠 Tecnologias Utilizadas
