@@ -3,7 +3,7 @@
 ---
 
 ## 📝 Sobre o Projeto
-Este projeto foi desenvolvido como um desafio técnico de Front-end, focado na criação de uma interface de e-commerce modular, responsiva e de alta fidelidade visual. A arquitetura foi pensada para manter o arquivo principal (index.tsx) o mais limpo possível.
+Este projeto foi desenvolvido como um desafio técnico de Front-end, focado na criação de uma interface de e-commerce modular, responsiva e de alta fidelidade visual. A arquitetura foi pensada para manter o arquivo principal (index.tsx) o mais limpo possível
 
 ---
 
@@ -38,15 +38,13 @@ Este projeto foi desenvolvido como um desafio técnico de Front-end, focado na c
 ---
 
 ## 📂 Estrutura de Arquivos
-
 ```bash
 src/
- ├── components/       # Componentes isolados (TSX + SCSS)
- ├── data/             # products.json
- └── assets/           # Imagens e ícones
+ ├── components/        Componentes isolados (TSX + SCSS)
+ ├── data/              products.json
+ └── assets/            Imagens e ícones
  ```
- 
 
  <p align="center">
-Desenvolvido com ❤️ por <strong>Claudio Schiminsky Junior</strong>
+Desenvolvido com ❤️ por <strong>Clau/strong>
 </p>
