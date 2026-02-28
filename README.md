@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+🛒 E-commerce Front-end Test
+<p align="center">
+<img src="/public/assets/logo-econverse.png" alt="Logo Econverse" width="200"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🛠 Tecnologias Utilizadas
+<p align="left">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" />
+</p>
 
-## Available Scripts
+📝 Sobre o Projeto
+Este projeto foi desenvolvido como um desafio técnico de Front-end, focado na criação de uma interface de e-commerce modular, responsiva e de alta fidelidade visual. A arquitetura foi pensada para manter o arquivo principal (index.tsx) o mais limpo possível
 
-In the project directory, you can run:
+✨ Funcionalidades em Destaque
+Vitrine Dinâmica: Carrossel de produtos com navegação manual.
+Componentes Modulares: Header, Banner, Navegação por Marcas, Newsletter e Footer totalmente independentes.
+Modal de Produto: Popup detalhado com controle de quantidade e informações dinâmicas.
+Toast Notification: Notificação que mostra que um produto foi adicionado ao carrinho.
 
-### `npm start`
+📦 Vitrine de Produtos
+Carrossel Inteligente com navegação suave.
+Badges de Promoção (destaque para frete grátis e parcelamento sem juros).
+Preços Formatados.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+📂 Estrutura de Arquivos
+src/
+ ├── components/        Componentes isolados (TSX + SCSS)
+ ├── data/              products.json
+ └── assets/            Imagens e ícones
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+ <p align="center">
+Desenvolvido com ❤️ por <strong>Claudio Schiminsky Junior</strong>
+</p>

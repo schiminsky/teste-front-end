@@ -1,0 +1,98 @@
+.product-shelf-container {
+  width: 1350px;
+  margin: 20px auto 50px;
+  position: relative;
+  user-select: none;
+
+  .carousel-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .arrow {
+      width: 60px;
+      height: 24px;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+      border: none;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .carousel-content {
+      display: flex;
+      gap: 20px;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      padding: 20px 5px;
+    }
+  }
+
+  .product-card {
+    min-width: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.3s;
+
+    &:hover { 
+      transform: translateY(-5px); 
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    .product-details {
+      .name { 
+        font-size: 15px; 
+        color: #3F3F40; 
+        height: 45px; 
+        margin-bottom: 10px; 
+      }
+
+      .old-price { 
+        font-size: 14px; 
+        color: #9F9F9F; 
+        text-decoration: 
+        line-through; 
+      }
+
+      .price { 
+        font-size: 20px; 
+        font-weight: 700; 
+        color: #3F3F40; 
+      }
+
+      .installments { 
+        font-size: 12px; 
+        color: #3F3F40; 
+      }
+      
+      .shipping { 
+        font-size: 12px; 
+        color: #3442B5; 
+        margin-top: 5px; 
+      }
+
+      .buy-button {
+        width: 100%;
+        background: #3442B5;
+        color: #FFF;
+        border: none;
+        padding: 12px;
+        margin-top: 15px;
+        font-weight: 700;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -6,22 +6,22 @@ function Header() {
       <section className="top">
         <ul className="topbar">
           <li className="topbar-contents">
-            <img src="assets/ShieldCheck.png" alt="Compra Segura" />
+            <img src="assets/images/ShieldCheck.png" alt="Compra Segura" />
             <p>Compra <span>100% segura</span></p>
           </li>
           <li className="topbar-contents">
-            <img src="assets/Truck.png" alt="Frete" />
+            <img src="assets/images/Truck.png" alt="Frete" />
             <p><span>Frete grátis</span> acima de R$ 200</p>
           </li>
           <li className="topbar-contents">
-            <img src="assets/CreditCard.png" alt="Cartão de Crédito" />
+            <img src="assets/images/CreditCard.png" alt="Cartão de Crédito" />
             <p><span>Parcele</span> suas compras</p>
           </li>
         </ul>
         <div className="middle">
           <div className="middle-menu">
             <div className="logo">
-              <img src="assets/Logo-econverse-header.png" alt="Logo econverse" />
+              <img src="assets/images/Logo-econverse-header.png" alt="Logo econverse" />
             </div>
             <div className="search">
               <form className="search-container" role="search">
@@ -31,7 +31,7 @@ function Header() {
                   aria-label="Buscar produtos"
                 />
                 <button type="submit" aria-label="Pesquisar">
-                  <img src="/assets/MagnifyingGlass.png" alt="Lupa" /> 
+                  <img src="/assets/images/MagnifyingGlass.png" alt="Lupa" /> 
                 </button>
               </form>
             </div>
@@ -39,22 +39,22 @@ function Header() {
               <ul>
                 <li>
                   <a href="/pedidos" title="Meus Pedidos">
-                    <img src="/assets/Box.png" alt="Meus Pedidos" />
+                    <img src="/assets/images/Box.png" alt="Meus Pedidos" />
                   </a>
                 </li>
                 <li>
                   <a href="/favoritos" title="Meus Favoritos">
-                    <img src="/assets/Heart.png" alt="Meus Favoritos" />
+                    <img src="/assets/images/Heart.png" alt="Meus Favoritos" />
                   </a>
                 </li>
                 <li>
                   <a href="/login" title="Minha Conta">
-                    <img src="/assets/UserCircle.png" alt="Minha Conta" />
+                    <img src="/assets/images/UserCircle.png" alt="Minha Conta" />
                   </a>
                 </li>
                 <li>
                   <a href="/carrinho" title="Carrinho de Compras" className="cart-icon">
-                    <img src="/assets/ShoppingCart.png" alt="Carrinho de compras" />
+                    <img src="/assets/images/ShoppingCart.png" alt="Carrinho de compras" />
                   </a>
                 </li>
               </ul>
@@ -72,7 +72,7 @@ function Header() {
               <li><a href="/ofertas" className="active">OFERTAS DO DIA</a></li>
               <li>
                 <a href="/assinatura" className="subscription">
-                  <img src="/assets/CrownSimple.png" alt="" />
+                  <img src="/assets/images/CrownSimple.png" alt="" />
                   ASSINATURA
                 </a>
               </li>

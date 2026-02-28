@@ -1,0 +1,36 @@
+.brand-nav-container {
+  max-width: 1280px;
+  margin: 60px auto;
+  text-align: center;
+  user-select: none;
+
+  .brand-title {
+    font-size: 30px;
+    color: #3442B5;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+
+  .brands-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+
+    .brand-circle {
+      width: 211px;
+      height: 211px;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      img {
+        width: 211px;
+        height: auto;
+      }
+    }
+  }
+}
