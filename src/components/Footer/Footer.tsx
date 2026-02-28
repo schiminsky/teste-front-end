@@ -1,16 +1,21 @@
 import './Footer.scss';
 
+import logoFooter from '../../assets/images/econverse-footer.png';
+import instagramIcon from '../../assets/images/instagram.png';
+import facebookIcon from '../../assets/images/facebook.png';
+import linkedinIcon from '../../assets/images/linkedin.png';
+
 const Footer = () => {
   return (
     <footer className="footer-container">
       <div className="footer-main">
         <div className="footer-brand">
-          <img src="assets/images/econverse-footer.png" alt="Econverse" className="footer-logo" />
+          <img src={logoFooter} alt="Econverse" className="footer-logo" />
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <div className="social-icons">
-            <img src="assets/images/instagram.png" alt="Instagram" />
-            <img src="assets/images/facebook.png" alt="Facebook" />
-            <img src="assets/images/linkedin.png" alt="Linkedin" />
+            <img src={instagramIcon} alt="Instagram" />
+            <img src={facebookIcon} alt="Facebook" />
+            <img src={linkedinIcon} alt="Linkedin" />
           </div>
         </div>
 

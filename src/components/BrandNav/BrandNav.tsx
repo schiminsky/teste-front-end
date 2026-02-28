@@ -1,5 +1,7 @@
 import './BrandNav.scss';
 
+import BrandImg from '../../assets/images/brandseconverse.png';
+
 const BrandNav = () => {
   const brands = [1, 2, 3, 4, 5];
 
@@ -10,7 +12,7 @@ const BrandNav = () => {
       <div className="brands-wrapper">
         {brands.map((brand) => (
           <div key={brand} className="brand-circle">
-            <img src="/assets/images/brandseconverse.png" alt="Logo Econverse" />
+            <img src={BrandImg} alt="Logo Econverse" />
           </div>
         ))}
       </div>

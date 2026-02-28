@@ -1,5 +1,13 @@
 import './Category.scss';
 
+import techIcon from '../../assets/images/tech.png';
+import marketIcon from '../../assets/images/market.png';
+import drinksIcon from '../../assets/images/drinks.png';
+import toolsIcon from '../../assets/images/tools.png';
+import healthIcon from '../../assets/images/health.png';
+import fitnessIcon from '../../assets/images/fitness.png';
+import modaIcon from '../../assets/images/moda.png';
+
 function Category() {
   return (
     <nav className="categories-icons" aria-label="Navegação por categorias">
@@ -7,7 +15,7 @@ function Category() {
         <li>
           <a href="/tecnologia" className="category-item active">
             <div className="icon-box">
-              <img src="/assets/images/tech.png" alt="Tecnologia" />
+              <img src={techIcon} alt="Tecnologia" />
             </div>
             <span>Tecnologia</span>
           </a>
@@ -15,7 +23,7 @@ function Category() {
         <li>
           <a href="/supermercado" className="category-item">
             <div className="icon-box">
-              <img src="/assets/images/market.png" alt="Supermercado" />
+              <img src={marketIcon} alt="Supermercado" />
             </div>
             <span>Supermercado</span>
           </a>
@@ -23,7 +31,7 @@ function Category() {
         <li>
           <a href="/bebidas" className="category-item">
             <div className="icon-box">
-              <img src="/assets/images/drinks.png" alt="Bebidas" />
+              <img src={drinksIcon} alt="Bebidas" />
             </div>
             <span>Bebidas</span>
           </a>
@@ -31,7 +39,7 @@ function Category() {
         <li>
           <a href="/ferramentas" className="category-item">
             <div className="icon-box">
-              <img src="/assets/images/tools.png" alt="Ferramentas" />
+              <img src={toolsIcon} alt="Ferramentas" />
             </div>
             <span>Ferramentas</span>
           </a>
@@ -39,7 +47,7 @@ function Category() {
         <li>
           <a href="/saude" className="category-item">
             <div className="icon-box">
-              <img src="/assets/images/health.png" alt="Saúde" />
+              <img src={healthIcon} alt="Saúde" />
             </div>
             <span>Saúde</span>
           </a>
@@ -47,7 +55,7 @@ function Category() {
         <li>
           <a href="/fitness" className="category-item">
             <div className="icon-box">
-              <img src="/assets/images/fitness.png" alt="Esportes e Fitness" />
+              <img src={fitnessIcon} alt="Esportes e Fitness" />
             </div>
             <span>Esportes e Fitness</span>
           </a>
@@ -55,7 +63,7 @@ function Category() {
         <li>
           <a href="/moda" className="category-item">
             <div className="icon-box">
-              <img src="/assets/images/moda.png" alt="Moda" />
+              <img src={modaIcon} alt="Moda" />
             </div>
             <span>Moda</span>
           </a>
