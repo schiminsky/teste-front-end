@@ -1,5 +1,5 @@
 .product-shelf-container {
-  width: 1375px;
+  width: 1350px;
   margin: 20px auto 50px;
   position: relative;
   user-select: none;
@@ -17,7 +17,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
       border: none;
       cursor: pointer;
       outline: none;
@@ -37,7 +37,7 @@
     background: #FFFFFF;
     box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    padding: 20px;
+    padding: 16px;
     transition: 0.3s;
     width: 304px;
 

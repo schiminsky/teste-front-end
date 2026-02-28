@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: #F8F8F8;
+  background-color: #f4f4f4;
   padding-top: 60px;
   font-family: 'Poppins', sans-serif;
 
@@ -9,10 +9,22 @@
     display: flex;
     justify-content: space-between;
     padding: 0 20px 60px;
-    border-bottom: 1px solid #DEDEDE;
 
     .footer-brand {
+      position: relative;
       max-width: 250px;
+      padding-right: 200px;
+      flex: 1;
+
+      &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 1px;
+        background-color: #DEDEDE;
+      }
 
       .footer-logo { 
         width: 150px; 
@@ -44,12 +56,13 @@
     .footer-links {
       display: flex;
       gap: 80px;
+      right: 125px;
+      position: relative;
 
       .link-column {
         h3 { 
           font-size: 16px; 
           color: #3F3F40; 
-          text-transform: uppercase; 
           margin-bottom: 20px; 
           font-weight: 700;
         }
@@ -63,7 +76,10 @@
             color: #3F3F40; 
             margin-bottom: 12px; 
             cursor: pointer; 
-            &:hover { text-decoration: underline; }
+
+            &:hover { 
+              text-decoration: underline; 
+            }
           }
         }
       }
@@ -71,13 +87,16 @@
   }
 
   .footer-bottom {
-    background-color: #2A1E4E;
-    padding: 20px 0;
+    background-color: #FFFFFF;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 46px;
+    align-items: center;
 
     p { 
       font-size: 12px; 
-      color: #FFFFFF; 
+      color: #000000; 
       opacity: 0.6; 
     }
   }
