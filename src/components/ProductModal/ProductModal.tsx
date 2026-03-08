@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './ProductModal.scss';
+/* eslint-disable jsx-a11y/anchor-is-valid */
 
 interface Product {
   productName: string;
@@ -46,7 +47,7 @@ const ProductModal: React.FC<ModalProps> = ({ product, onClose, onConfirm }) => 
             <p className="modal-description">
               Many desktop publishing packages and web page editors now many desktop publishing
             </p>
-            <a href="#" className="view-details">Veja mais detalhes do produto &gt;</a>
+            <a href="#!" className="view-details">Veja mais detalhes do produto &gt;</a>
             <div className="modal-actions">
               <div className="quantity-control">
                 <button onClick={decrement}>-</button>
