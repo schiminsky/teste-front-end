@@ -36,3 +36,26 @@
     text-align: center;
   }
 }
+
+@media (max-width: 768px) {
+  .shelf-header {
+    margin: 30px auto 15px;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+    .title-wrapper {
+      gap: 10px;
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+
+    .view-all {
+      margin-top: 15px;
+      font-size: 14px;
+      padding: 10px;
+      width: 100%;
+    }
+  }
+}

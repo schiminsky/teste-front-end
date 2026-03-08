@@ -10,3 +10,14 @@
     object-fit: cover;
   }
 }
+
+@media (max-width: 768px) {
+  .main-banner-container {
+    min-height: 120px; 
+    
+    img {
+      height: 150px;
+      object-position: center; 
+    }
+  }
+}

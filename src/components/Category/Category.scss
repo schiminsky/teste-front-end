@@ -60,3 +60,37 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .categories-icons {
+    padding: 20px 0;
+
+    ul {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 0;
+
+      .category-item {
+        width: auto;
+        flex: 0 1 auto;
+
+        .icon-box {
+          width: 80px;  
+          height: 80px;
+
+          img {
+            width: 35px; 
+          }
+        }
+
+        span {
+          font-size: 12px; 
+          text-align: center;
+        }
+      }
+    }
+  }
+}

@@ -17,3 +17,20 @@
     to { transform: translateX(0); opacity: 1; }
   }
 }
+
+@media (max-width: 768px) {
+  .cart-toast {
+    right: 10px;
+    left: 10px;
+    bottom: 10px; 
+    text-align: center;
+    padding: 12px 20px;
+    font-size: 13px; 
+    animation: slideUp 0.3s ease-out;
+
+    @keyframes slideUp {
+      from { transform: translateY(100%); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  }
+}

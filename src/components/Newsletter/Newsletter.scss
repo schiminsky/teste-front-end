@@ -78,3 +78,54 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .newsletter-container {
+    padding: 40px 20px; 
+
+    .newsletter-content {
+      flex-direction: column;
+      text-align: center; 
+      gap: 30px;
+
+      .text-side {
+        max-width: 100%; 
+
+        h2 {
+          font-size: 22px; 
+        }
+      }
+
+      .form-side {
+        width: 100%;
+
+        form {
+          align-items: center;
+
+          .input-group {
+            flex-direction: column;
+            width: 100%;
+            gap: 12px;
+
+            input {
+              width: 100%; 
+              box-sizing: border-box;
+              height: 48px; 
+            }
+
+            button {
+              width: 100%; 
+              height: 48px;
+              padding: 0;
+            }
+          }
+
+          .checkbox-label {
+            justify-content: center;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
