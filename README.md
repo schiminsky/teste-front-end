@@ -24,6 +24,7 @@ Este projeto foi desenvolvido como um desafio técnico de Front-end, focado na c
 ---
 
 ## ✨ Funcionalidades em Destaque
+* **Design Responsivo**: Interface totalmente otimizada para dispositivos móveis e tablets
 * **Carrossel Inteligente**: Navegação fluida com scroll suave.
 * **Preços Dinâmicos**: Formatação automática para o padrão BRL.
 * **Badges Visuais**: Destaques para frete grátis e parcelamento.
