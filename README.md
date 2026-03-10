@@ -1,4 +1,5 @@
-# <p align="center">🛒 Econverse Front-end Test</p>
+---
+<h1 align="center">🛒 Econverse Front-end Test</h1>
 
 <p align="center">
 <a href="https://schiminsky.github.io/teste-front-end">
@@ -92,3 +93,5 @@ Toast: Adicione um item ao carrinho clicando em "COMPRAR" dentro do modal e obse
  <p align="center">
 Desenvolvido por <strong>Claudio Schiminsky Junior</strong>
 </p>
+
+---
